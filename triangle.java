@@ -6,7 +6,7 @@ class side{
     private int z;
     
     public side(){
-        System.out.println("E-constructor");
+        System.out.println("E-constructor called");
      }
      
     public side(int x , int y , int z){
@@ -47,6 +47,8 @@ class side{
         else{
             System.out.println("The triangle is scalene");
         }
+
+        System.out.println("--------------------");
 
     }
 
